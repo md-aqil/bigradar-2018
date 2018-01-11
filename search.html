@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+	body {
+		font-size: 14px;
+	}
+	
+.letter {
+	display: inline-block;
+    position: relative;
+   opacity: 0;
+}
+
+
+	.letter.animate-enter {
+		animation: fadeInDown .7s ease;
+  		animation-fill-mode: both;
+
+
+	}
+
+
+	@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translate3d(0, 60%, 0);
+
+  }
+
+   100% {
+    opacity: 1;
+    transform: none;
+  }
+
+}
+
+	</style>
+</head>
+<body>
+
+	<h1 class="split">
+		<span class="letters animate">Hello World</span>
+		
+	</h1>
+
+<script src="js/jquery.min.js"></script>
+<script>
+	var li = $('.letters.animate');
+
+	
+	$('.split .letters').each(function(i) {
+	  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter '>$&</span>"));
+	});
+
+
+	li.find('.letter').each(function(i) {
+		setTimeout(function() {
+			$(this).addClass('animate-enter');
+		}.bind(this), i * 70);
+	});
+	
+
+</script>
+</body>
+</html>

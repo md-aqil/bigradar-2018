@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JustDesk</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/lightslider.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/main.css">
+
+<style>
+	.chat-bubble.zoomIn {
+ transform-origin: right bottom;
+
+	}
+	.animate-this polyline {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 4s linear forwards ;
+}
+.animate-this circle{
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-name: fl;
+ transform-origin: center;
+
+}
+.c1  {
+  -webkit-animation-delay: 0s;
+
+}
+.c2 {
+  -webkit-animation-delay: .3s;
+
+}
+.c3 {
+  -webkit-animation-delay: .9s;
+
+}
+.c4 {
+  -webkit-animation-delay: 1.3s;
+
+}
+.c5 {
+  -webkit-animation-delay: 1.9s;
+
+}
+.c6 {
+  -webkit-animation-delay: 2.6s;
+
+}
+.c7 {
+  -webkit-animation-delay: 3.3s;
+
+}
+@keyframes dash {
+  from {
+
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fl {
+  0%{transform: scale(0);opacity: 0;}
+  50%{transform: scale(.5); opacity: 1;}
+  70%{transform: scale(1.3)}
+  100%{transform: scale(1)}
+}
+
+</style>
+
+</head>
+<body>
+	
+	<div class="front-box">
+		<nav class="navbar navbar-default nav-transprent">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-sample" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h4><a class="navbar-brand" href="#" ><img src="img/logo.png" alt=""></a></h4>
+				</div>
+					
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-sample" style="margin-top: 15px;">
+				
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Customers</a></li>
+						<li><a href="#">Blog</a></li>
+						<!-- <button type="button" class="btn btn-default navbar-btn">Sign in</button> -->
+					</ul>
+				</div>
+				
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="gdm-box">
+						<div class="display-1">
+							Good Morning!
+						</div>
+						<p class="lead text-muted fw400">
+							Let's start your day with solving the communication <br>
+							problem for all the time
+							<br><br>
+						</p>
+						<div class="input-group">
+							<input type="text" class="form-control trial" placeholder="Enter your email">
+							<span class="input-group-btn">
+								<button class="btn theme-btn btn-trial">Start your free trial</button>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 text-right">
+					<img class="widget-img" src="img/widget.png" alt="">
+				</div>
+			</div>
+		</div>
+		
+
+	</div>
+
+	<div class="container spacethis">
+		<div class="text-center">
+			<h4 class="text-widget">
+				Getting less conversations?
+
+				<div class="w-line wow-reveal "></div>
+			</h4>
+			<h3 class="lead text-muted fz30">
+				Got live chat software but receiving few messages, <br>
+				switch to BigRadar and get 3x more messages than any other tool.
+			</h3>
+		</div>
+	</div>
+
+
+
+	<div class="container spacethis">
+		<div class="text-center">
+			<h4 class="text-widget" style="margin-bottom: 90px;">
+				Facing these problems?
+				<div class="w-line wow-reveal "></div>
+			</h4>
+		</div>
+				
+			<div class="row fz19-lead">
+				<div class="col-md-3 text-center">
+					<img src="img/notificaton.png" alt="">
+					<h3>Message errors</h3>
+					<p class="lead fw400 text-muted">You just typed a reply and message faild</p>
+				</div>
+
+				<div class="col-md-3 text-center">
+					<img src="img/notificaton.png" alt="">
+					<h3>Customer left</h3>
+					<p class="lead fw400 text-muted">
+						Customers are unable use the 
+						chat widget due to ugly widgets.
+					</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<img src="img/notificaton.png" alt="">
+					<h3>Got notified late</h3>
+					<p class="lead fw400 text-muted">
+						You're on the go but got notified
+						after 2-3 mins on mobile app.
+					</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<img src="img/notificaton.png" alt="">
+					<h3>Can't Email</h3>
+					<p class="lead fw400 text-muted">
+						When customers are not online 
+						you're unable to send email.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+
+<div class="container-fluid spacethis overflow-hidden">
+		<div class="text-center">
+			<h4 class="text-widget" style="margin-bottom: 90px;">
+				Why switch to BigRadar?
+				<div class="w-line wow-reveal "></div>
+			</h4>
+		</div>
+				
+			<div class="row">
+				<div class="col-md-5 ">
+					<div class="col-md-10 col-md-offset-2">
+					<ul class="media-list">
+					  <li class="media mt200">
+					    <div class="media-left">
+					      <div class="circle">1</div>
+					    </div>
+					    <div class="media-body">
+					      <h3 class="media-heading">Engagement</h3>
+					     <p class="lead fw400 text-muted">
+					     	Lack of engagement with users increases bounce rate and ultimately looses potential customers.
+					     	using BigRadar, You'll be able to engage them based on their behaviors like Location, Browsers,
+					     	Time spent on page, Name of Page,
+					     	Desktop or Mobile and lot more options.
+					     </p>
+					    </div>
+					  </li>
+					</ul>
+					</div>
+			
+				</div>
+				<div class="col-md-7 por">
+					<img class="create-img " src="img/macbook-white.png" alt="">
+					<img class="mobile-left create-mob wow fadeInRight" src="img/Google-Pixel-(Quite-Silver)ff.png" alt="">
+				</div>
+			</div>
+</div>
+
+<div class="container-fluid spacethis">
+		
+			<div class="row">
+				<div class="col-md-7 por">
+					<img class="sub-img" src="img/macbook-white2.png" alt="">
+					<img class="mobile-left sub-mob wow fadeInLeft" src="img/subs-mobile.png" alt="">
+				</div>
+
+				<div class="col-md-5">
+					<div class="col-md-10">
+						<ul class="media-list text-right">
+						  <li class="media mt200">
+						    
+						    <div class="media-body">
+						      <h3 class="media-heading">
+						      	Subscribers Building
+						      </h3>
+						     <p class="lead fw400 text-muted">	Still paying for multiple softwares to build subscribers list and another software to send them targeted campaigns?
+						     </p>
+						      <p class="lead fw400 text-muted">
+						      	BigRadar helps you in creating beautifully designed pop-up boxes, integration with major softwares, multiple segments or automated campaigns basedon behaviors.
+						     </p>
+						    </div>
+						    <div class="media-right">
+						      <div class="circle">1</div>
+						    </div>
+						  </li>
+						</ul>
+					</div>
+					
+			
+				</div>
+
+				
+			</div>
+</div>
+
+<div class="container-fluid spacethis overflow-hidden">
+		
+			<div class="row">
+				<div class="col-md-5">
+					<div class="col-md-10 col-md-offset-2">
+					<ul class="media-list">
+					  <li class="media mt200">
+					    <div class="media-left">
+					      <div class="circle">1</div>
+					    </div>
+					    <div class="media-body">
+					      <h3 class="media-heading">Personlized messages</h3>
+					     <p class="lead fw400 text-muted">
+					     	44% of users are more like to start a conversation with you if they see a personalized message based on their behaviors. We don't think you need another reason for this feature
+					     </p>
+					    </div>
+					  </li>
+					</ul>
+					</div>
+			
+				</div>
+				<div class="col-md-7 por">
+
+					<div class="notifications">
+						<a href="" class="notification-close wow fadeInUp">
+						<svg version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.112 31.112" xml:space="preserve"><polygon points="31.112,1.414 29.698,0 15.556,14.142 1.414,0 0,1.414 14.142,15.556 0,29.698 1.414,31.112 15.556,16.97   29.698,31.112 31.112,29.698 16.97,15.556 " fill="#FFFFFF"></polygon></svg>
+					</a>
+						<div>
+
+						<div class="notification wow fadeInUp" data-wow-delay=".2s">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, quaerat.
+						</div>
+
+						<div class="notification wow fadeInUp" data-wow-delay=".6s">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, quaerat.
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, quaerat.
+						</div>
+						<div class="notification wow fadeInUp" data-wow-delay=".9s">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, quaerat.
+						</div>
+						<div class="notification wow fadeInUp input-notification" data-wow-delay="1s">
+							<span style="margin-top: 3px;display: inline-block;">Write a Message</span>
+    
+							<svg class="arrow-icon" version="1.1" x="0px" y="0px" viewBox="0 0 535.5 535.5" xml:space="preserve"><polygon points="0,497.25 535.5,267.75 0,38.25 0,216.75 382.5,267.75 0,318.75"></polygon></svg>
+						</div>
+
+						</div>
+					<div class="composer-container"><div class="bigradar-composer"></a></div></div></div>
+				</div>
+			</div>
+</div>
+
+<div class="container-fluid spacethis overflow-hidden">
+		
+			<div class="row">
+				<div class="col-md-5 ">
+					<div class="col-md-10 col-md-offset-2">
+					<ul class="media-list">
+					  <li class="media mt200">
+					    <div class="media-left">
+					      <div class="circle">1</div>
+					    </div>
+					    <div class="media-body">
+					      <h3 class="media-heading">
+					      	One Interface for multiple Projects
+					      </h3>
+					     <p class="lead fw400 text-muted">
+					     	Every company has multiple brands and projects but they usually have multiple accounts for multiple projects. BigRadar makes is really easy for you 
+					     	to manage all of your exercises with ease.
+					     </p>
+					    </div>
+					  </li>
+					</ul>
+					</div>
+			
+				</div>
+				<div class="col-md-7 por">
+					<img class="width100" src="img/magni2.svg" alt="">
+				</div>
+			</div>
+</div>
+
+
+<div class="container-fluid spacethis">
+		
+			<div class="row">
+				<div class="col-md-7 por">
+					<img class="mostef" src="img/O7BGER1.png" alt="">
+					
+				</div>
+
+				<div class="col-md-5">
+					<div class="col-md-10">
+						<ul class="media-list text-right">
+						  <li class="media mt200">
+						    
+						    <div class="media-body">
+						      <h3 class="media-heading">
+						      	Most effective tool for landing pages 
+						      </h3>
+						     <p class="lead fw400 text-muted">
+						     	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eveniet numquam explicabo voluptates natus porro nesciunt exercitationem aspernatur impedit est ipsum repellat maiores consectetur corrupti voluptas. Suscipit amet quia ducimus.
+						     </p>
+
+						    </div>
+						    <div class="media-right">
+						      <div class="circle">5</div>
+						    </div>
+						  </li>
+						</ul>
+					</div>
+					
+			
+				</div>
+
+				
+			</div>
+</div>
+
+
+
+<div class="container-fluid bg-secondary">
+	<div class="row">
+		<div class="container spacethis">
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<img class="chat-img wow slideInLeft" src="img/chat-screen.png" alt="">
+				</div>
+				<div class="col-md-6">
+					<ul class="media-list chat-media">
+					  <li class="media wow fadeInUp">
+					   
+					    <div class="media-body">
+   					      <h3 class="media-heading">Follow your customer</h3>
+   					      <p class="lead  ">
+   					      	Your Customers are on mobile, so your live chat should be too.
+   					      	Use BigRadar Messenger on your mobile website, or integrate our SDKa into 
+   					      	your own apps.
+   					      </p>
+   					    </div>
+					  </li>
+					   <li class="media wow fadeInUp" data-wow-delay=".2s">
+					   
+					     <div class="media-body">
+					      <h3 class="media-heading">Follow your customer</h3>
+					      <p class="lead  ">
+					      	Your Customers are on mobile, so your live chat should be too.
+					      	Use BigRadar Messenger on your mobile website, or integrate our SDKa into 
+					      	your own apps.
+					      </p>
+					    </div>
+					  </li>
+					   <li class="media wow fadeInUp" data-wow-delay=".4s">
+					    <div class="media-left">
+					      <a href="#">
+					        <img class="media-object" src="img/notificaton.png" alt="...">
+					      </a>
+					    </div>
+					    <div class="media-body">
+					      <h3 class="media-heading">Follow your customer</h3>
+					      <p class="lead  ">
+					      	Your Customers are on mobile, so your live chat should be too.
+					      	Use BigRadar Messenger on your mobile website
+					      </p>
+					    </div>
+					  </li>
+					   <li class="media wow fadeInUp" data-wow-delay=".6s">
+					    <div class="media-left">
+					      <a href="#">
+					        <img class="media-object" src="img/notificaton.png"  alt="...">
+					      </a>
+					    </div>
+					    <div class="media-body">
+					      <h3 class="media-heading">Follow your customer</h3>
+					      <p class="lead  ">
+					      	Your Customers are on mobile, so your live chat should be too.
+					      	Use BigRadar Messenger on your mobile website
+					      </p>
+					    </div>
+					  </li>
+					</ul>
+					
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid bg-net" style="color:#333;">
+	<div class="row spacethis ">
+		<div class="col-md-8">
+			<!-- <img src="img/line-graph.svg" alt=""> -->
+			<svg class="line-graph" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 705 251"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;}.cls-2 {fill:#fff;}</style></defs><title>3</title>
+
+
+<polyline class="cls-1" points="7.25 243.25 85.25 207.25 235.24 163.75 307.24 127.76 466.23 88.76 539.72 51.26 695.72 7.76"/>
+
+<circle class="cls-2 c1" cx="7.5" cy="243.5" r="7.5"/><circle class="cls-2 c2" cx="84.5" cy="204.5" r="7.5"/><circle class="cls-2 c3" cx="235.5" cy="163.5" r="7.5"/><circle class="cls-2 c4" cx="311.5" cy="125.5" r="7.5"/><circle class="cls-2 c5" cx="465.5" cy="89.5" r="7.5"/><circle class="cls-2 c6" cx="543.5" cy="49.5" r="7.5"/><circle class="cls-2 c7" cx="697.5" cy="7.5" r="7.5"/></svg>
+
+		</div>
+		<div class="col-md-4 is-inview">
+			<div class="progress-box ">
+				<h3>Sales Go Up</h3>
+				<br>
+			    
+			            <div class="progress skill-bar">
+			                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+			                   
+			                </div>
+			            </div>
+			       <p class="prog-label">Custompers</p>
+
+			         <div class="progress skill-bar ">
+			                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
+			                   
+			                </div>
+			            </div>
+			        <p class="prog-label">Sales</p>
+			            
+				</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid ">
+	<div class="row overflow-hidden">
+		<div class="col-md-12 spacethis">
+		<div class="col-md-4 text-right por">
+			<h3 class="text-center" style="margin-left:120px;">What User See</h3>
+			<img class="chat-bubble wow zoomIn shadow" src="img/chat-bubble-screen.svg" alt="">
+			<img class="clgb" src="img/close-buble.svg" alt="">
+			<!-- <video loop=""  id="messenger-video" class="video-convo-body" preload="auto">
+                                <source src="video/messenger.mp4" type="video/mp4">
+                                    We're sorry, your browser doesn't support HTML5 video.
+                            </video> -->
+                          
+		</div>
+	<div class="col-md-8">
+		<h1>&nbsp;</h1>
+			<h3 class="text-center mb40">What You will See.</h3>
+			<div class="user-dashbox shadow">
+		<!-- <img class="user-dash" src="img/dash.svg" alt=""> -->
+			
+				  <video id="user-dash" poster="" playsinline autoplay muted loop>
+						  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+						<!-- <source src="http://thenewcode.com/assets/videos/polina.webm" type="video/webm"> -->
+						<source src="video/kyako-dash.mp4" type="video/mp4">
+						</video>
+			</div>
+	</div>
+	</div>
+	</div>
+	
+</div>
+
+
+
+
+<div class="container-fluid spacethis">
+  <div id="main_area">
+    <!-- Slider -->
+    <div class="row">
+      <div class="col-xs-12" id="slider">
+        <!-- Top part of the slider -->
+       <div class="row">
+          
+
+          <div class="col-md-3 col-md-offset-1" id="carousel-text"></div>
+
+		<div class="col-sm-4" id="carousel-bounding-box">
+            <div class="carousel slide" id="myCarousel">
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="active item" data-slide-number="0">
+                  <img src="img/chat-screen.png"></div>
+
+                <div class="item" data-slide-number="1">
+                  <img src="img/chat-screen.png"></div>
+
+                <div class="item" data-slide-number="2">
+                  <img src="img/chat-screen.png"></div>
+
+               <ol class="carousel-indicators">
+			          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+			          <li data-target="#myCarousel" data-slide-to="2" ></li>
+			     </ol>
+                
+              </div>
+            
+              <!-- Carousel nav -->
+            
+            </div>
+     	</div>
+
+          <div id="slide-content" style="display: none;">
+	            <div id="slide-content-0">
+	              <h3 class="media-heading">
+			      	Most effective tool for landing pages 
+			      </h3>
+
+	           <p class="lead fw400 text-muted">
+		     	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eveniet numquam explicabo voluptates natus porro nesciunt exercitationem aspernatur impedit est ipsum repellat maiores consectetur corrupti voluptas. Suscipit amet quia ducimus.
+		     </p>
+	            </div>
+
+	            <div id="slide-content-1">
+	               <h3 class="media-heading">
+			      	Most effective tool for landing pages 
+			      </h3>
+
+	           <p class="lead fw400 text-muted">
+		     	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eveniet numquam explicabo voluptates natus porro nesciunt exercitationem aspernatur impedit est ipsum repellat maiores consectetur corrupti voluptas. Suscipit amet quia ducimus.
+		     </p>
+	            </div>
+
+	            <div id="slide-content-2">
+	               <h3 class="media-heading">
+			      	Most effective tool for landing pages 
+			      </h3>
+
+	           <p class="lead fw400 text-muted">
+		     	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eveniet numquam explicabo voluptates natus porro nesciunt exercitationem aspernatur impedit est ipsum repellat maiores consectetur corrupti voluptas. Suscipit amet quia ducimus.
+		     </p>
+	            </div>
+
+	            
+
+          </div>
+          <div class="col-md-4">
+          	<ul class="hide-bullets row">
+          	     <li class="col-md-6">
+          	       <a class="thumbnail thumbimg" id="carousel-selector-1"><img src="img/chat-screen.png"></a>
+          	     </li>
+          	      <li class="col-md-6">
+          	       <a class="thumbnail thumbimg" id="carousel-selector-2"><img src="img/chat-screen.png"></a>
+          	     </li>
+          	   
+          	 </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Slider-->
+
+   
+  </div>
+</div>
+
+<div class="container-fluid bg-secondary">
+	<div class="row">
+		<div class="container">
+		        <div class="row">
+		            <div class="col-md-12">
+		                <div class="carousel slide" data-ride="" id="quote-carousel">
+		                    <!-- Carousel Slides / Quotes -->
+		                    <div class="carousel-inner text-center">
+		                        <!-- Quote 1 -->
+		                        <div class="item active">
+		                            <blockquote>
+		                                <div class="row">
+		                                    <div class="col-sm-8 col-sm-offset-2">
+		                                    	<div class="play-video-box">
+                                					<img style="width:100%;" src="img/Beautiful-Girl-9.jpg" alt="">
+                                					<a class="play-video" href="#">
+                                						<img class="btn-img" src="img/download.svg" alt="">
+                                					</a>
+                                				
+                                				
+
+                                				<iframe class="video" src="https://www.youtube.com/embed/eKDpYV-3sOE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+                                				</div>
+
+		                                        <p class="lead">
+		                                        		     	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eveniet numquam explicabo voluptates natus porro nesciunt exercitationem aspernatur impedit est ipsum repellat maiores consectetur corrupti voluptas. Suscipit amet quia ducimus.
+		                                        		     </p>
+		                                        <small>Someone famous</small>
+		                                    </div>
+		                                </div>
+		                            </blockquote>
+		                        </div>
+		                        <!-- Quote 2 -->
+		                        <div class="item">
+		                            <blockquote>
+		                                <div class="row">
+		                                    <div class="col-sm-8 col-sm-offset-2">
+		                                    	<div class="play-video-box">
+                                					<img style="width:100%;" src="img/Beautiful-Girl-9.jpg" alt="">
+                                					<a class="play-video" href="#">
+                                						<img class="btn-img" src="img/download.svg" alt="">
+                                					</a>
+                                				
+                                					<iframe class="video" src="https://www.youtube.com/embed/eKDpYV-3sOE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                                				</div>
+		                                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+		                                        <small>Someone famous</small>
+		                                    </div>
+		                                </div>
+		                            </blockquote>
+		                        </div>
+		                        <!-- Quote 3 -->
+		                        <div class="item">
+		                            <blockquote>
+		                                <div class="row">
+		                                    <div class="col-sm-8 col-sm-offset-2">
+		                                    	<div class="play-video-box">
+                                					<img style="width:100%;" src="img/Beautiful-Girl-9.jpg" alt="">
+                                					<a class="play-video" href="#">
+                                						<img class="btn-img" src="img/download.svg" alt="">
+                                					</a>
+                                				
+                                					<iframe class="video" src="https://www.youtube.com/embed/eKDpYV-3sOE?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                                				</div>
+		                                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+		                                        <small>Someone famous</small>
+		                                    </div>
+		                                </div>
+		                            </blockquote>
+		                        </div>
+		                    </div>
+		                    <!-- Bottom Carousel Indicators -->
+		                    <ol class="carousel-indicators">
+		                        <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+		                        </li>
+		                        <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+		                        </li>
+		                        <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+		                        </li>
+		                    </ol>
+
+		                   
+		                </div>
+		            </div>
+		        </div>
+		      
+		    </div>
+	</div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightslider.min.js"></script>
+<script src="js/WOW.js"></script>
+<script>
+
+	wow2 = new WOW(
+        {
+        boxClass:     'wow-reveal',      // default
+        animateClass: 'reveal-text', // default
+        offset:       0,          // default
+        mobile:       true,       // default
+        live:         true        // default
+      }
+      )
+      wow2.init();
+
+      new WOW().init();
+       
+      
+      
+
+</script>
+
+<script>
+	
+
+// $(document).ready(function() {
+//     $('#autoWidth').lightSlider({
+//         autoWidth:true,
+//         loop:true,
+//         onSliderLoad: function() {
+//             $('#autoWidth').removeClass('cS-hidden');
+//         } 
+//     });  
+//   });
+
+
+   jQuery(document).ready(function($) {
+ 				//set here the speed to change the slides in the carousel
+        // $('#myCarousel').carousel({
+        //         interval: 5000
+        // });
+ 				
+//Loads the html to each slider. Write in the "div id="slide-content-x" what you want to show in each slide
+        $('#carousel-text').html($('#slide-content-0').html());
+ 
+        //Handles the carousel thumbnails
+       $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#myCarousel').carousel(id);
+        });
+ 
+ 
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
+
+
+  $('.play-video').on('click', function(ev) {
+	ev.preventDefault();
+
+    $(this).next('.video').show().get(0).src += "&autoplay=1";
+ 
+  });
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    console.log(scroll);
+    if (scroll > 6610 && scroll < 7659) {
+    	$('.bg-net').addClass('animate-this');
+    } else {
+    	$('.bg-net').removeClass('animate-this');
+    }
+  
+});
+$(document).ready(function() {
+	     $('.progress .progress-bar').css("width",
+	               function() {
+	                   return $(this).attr("aria-valuenow") + "%";
+	               }
+	       )
+	   });
+
+</script>
+</body>
+</html>
