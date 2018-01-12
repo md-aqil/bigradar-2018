@@ -174,13 +174,13 @@
 				<div class="col-md-3 text-center">
 					<img src="img/msg-error.png" alt="">
 					<h3>Message errors</h3>
-					<p class="lead fw400 text-muted">You just typed a reply and message faild</p>
+					<p class="lead text-muted">You just typed a reply and message faild</p>
 				</div>
 
 				<div class="col-md-3 text-center">
 					<img src="img/customer-left.png" alt="">
 					<h3>Customer left</h3>
-					<p class="lead fw400 text-muted">
+					<p class="lead text-muted">
 						Customers are unable use the 
 						chat widget due to ugly widgets.
 					</p>
@@ -188,7 +188,7 @@
 				<div class="col-md-3 text-center">
 					<img src="img/notificaton.png" alt="">
 					<h3>Got notified late</h3>
-					<p class="lead fw400 text-muted">
+					<p class="lead text-muted">
 						You're on the go but got notified
 						after 2-3 mins on mobile app.
 					</p>
@@ -196,7 +196,7 @@
 				<div class="col-md-3 text-center">
 					<img src="img/cant-mail.png" alt="">
 					<h3>Can't Email</h3>
-					<p class="lead fw400 text-muted">
+					<p class="lead text-muted">
 						When customers are not online 
 						you're unable to send email.
 					</p>
@@ -224,7 +224,7 @@
 					    </div>
 					    <div class="media-body">
 					      <h3 class="media-heading">Engagement</h3>
-					     <p class="lead fw400 text-muted">
+					     <p class="lead text-muted">
 					     	Lack of engagement with users increases bounce rate and ultimately looses potential customers.
 					     	using BigRadar, You'll be able to engage them based on their behaviors like Location, Browsers,
 					     	Time spent on page, Name of Page,
@@ -254,9 +254,9 @@
 				      <h3 class="media-heading">
 				      	Subscribers Building
 				      </h3>
-				     <p class="lead fw400 text-muted">	Still paying for multiple softwares to build subscribers list and another software to send them targeted campaigns?
+				     <p class="lead text-muted">	Still paying for multiple softwares to build subscribers list and another software to send them targeted campaigns?
 				     </p>
-				      <p class="lead fw400 text-muted">
+				      <p class="lead text-muted">
 				      	BigRadar helps you in creating beautifully designed pop-up boxes, integration with major softwares, multiple segments or automated campaigns basedon behaviors.
 				     </p>
 				    </div>
@@ -287,7 +287,7 @@
 					    </div>
 					    <div class="media-body">
 					      <h3 class="media-heading">Personlized messages</h3>
-					     <p class="lead fw400 text-muted">
+					     <p class="lead text-muted">
 					     	44% of users are more like to start a conversation with you if they see a personalized message based on their behaviors. We don't think you need another reason for this feature
 					     </p>
 					    </div>
@@ -341,7 +341,7 @@
 					      <h3 class="media-heading">
 					      	One Interface for multiple Projects
 					      </h3>
-					     <p class="lead fw400 text-muted">
+					     <p class="lead text-muted">
 					     	Every company has multiple brands and projects but they usually have multiple accounts for multiple projects. BigRadar makes is really easy for you 
 					     	to manage all of your exercises with ease.
 					     </p>
@@ -352,7 +352,7 @@
 			
 				</div>
 				<div class="col-md-7 por">
-					<img class="width100" src="img/magni2.svg" alt="">
+					<img class="mac-size pull-right" src="img/magni2.svg" alt="">
 				</div>
 			</div>
 </div>
@@ -369,7 +369,7 @@
 				      <h3 class="media-heading">
 				      	Most effective tool for landing pages 
 				      </h3>
-				     <p class="lead fw400 text-muted">
+				     <p class="lead text-muted">
 				     	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eveniet numquam explicabo voluptates natus porro nesciunt exercitationem aspernatur impedit est ipsum repellat maiores consectetur corrupti voluptas. Suscipit amet quia ducimus.
 				     </p>
 
@@ -534,7 +534,7 @@
 				<h3 class="media-heading">
 				Most effective tool for landing pages 
 			</h3>
-	     <p class="lead fw400 text-muted">
+	     <p class="lead text-muted">
 	     	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, eveniet numquam explicabo voluptates natus porro nesciunt exercitationem aspernatur impedit est ipsum repellat maiores consectetur corrupti voluptas. Suscipit amet quia ducimus.
 	     </p>
 			</div>
@@ -731,10 +731,19 @@
     $(this).next('.video').show().get(0).src += "&autoplay=1";
  
   });
+$(document).ready(function() {
+    $('#autoWidth').lightSlider({
+        // rtl:true,
+         onSliderLoad: function() {
+         $('#autoWidth').removeClass('cS-hidden');
+       } 
+    });
+});
 
 $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
-    if (scroll > 6610 && scroll < 7659) {
+    // console.log(scroll);
+    if (scroll > 5588 && scroll < 7009) {
     	$('.bg-net').addClass('animate-this');
     } else {
     	$('.bg-net').removeClass('animate-this');
@@ -752,14 +761,7 @@ $(window).scroll(function (event) {
 //   });
 
 
-$(document).ready(function() {
-    $('#autoWidth').lightSlider({
-        // rtl:true,
-         onSliderLoad: function() {
-         $('#autoWidth').removeClass('cS-hidden');
-       } 
-    });
-});
+
 </script>
 </body>
 </html>

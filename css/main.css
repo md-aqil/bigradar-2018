@@ -1,9 +1,20 @@
-	
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600');
+
 :root {
 	--primary-color: #f1703f;
 }
 :root {
   --secondary-color: #53c9eb;
+}
+:root {
+  --mac-size: 800px;
+}
+:root {
+  --mobile-size: 220px;
+}
+.mac-size {
+  width: var(--mac-size);
 }
 .bg-secondary {
  background: linear-gradient(70deg, #47bdf1, #66dce1);
@@ -13,7 +24,8 @@
 	background-color: #f2f2f2;
 }
 	body {
-		font-family: 'Segoe UI', 'sans-serif';
+    /*font-family: 'Quicksand', 'sans-serif';*/
+		font-family: 'Raleway', 'sans-serif';
 	}
 	
 .nav-transprent {
@@ -358,33 +370,37 @@ h1 {
 }
 .mobile-left {
   position: absolute;
-    width: 350px;
-    top: 100px;
+    width: var(--mobile-size);
+    top: 40px;
 }
 .right0 {
   right: 0;
 }
 .sub-img {
-  margin-left: -420px;
-    width: 1320px;
+    width: var(--mac-size);
+    float: left;
 }
 
 
 .create-img {
-   margin-right: -280px;
-    width: 1320px;
+    width: var(--mac-size);
+    float: right;
 }
 .create-mob {
-   left: 0px;
+   left: 20px;
 }
+.sub-mob {
+  right: 0px;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
 .mt200 {
-  margin-top: 200px !important;
+  margin-top: 80px !important;
 }
 .mostef {
-  width: 90%;
+  width: var(--mac-size);
 }
 
 
@@ -721,7 +737,7 @@ margin-top: 0;
 opacity: 1;
 }
 .padding-box {
-      padding: 100px;
+      padding: 30px 100px;
     margin-top: 100px;
 }
 .form-control.trial {
@@ -740,9 +756,6 @@ opacity: 1;
   /*height: 100% !important;*/
 }
 
-.sub-mob {
-    right: 0px;
-}
  .chat-media {
       padding: 0;
     margin-top: -20px;

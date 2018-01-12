@@ -128,9 +128,7 @@ margin-right: 0;
  
 }
 @media screen and (min-width: 1900px) {
-    .sub-mob {
-  right: 100px;
-}
+
 #user-dash {
     max-width: 925px;
     border-radius: 3px;
@@ -139,6 +137,12 @@ margin-right: 0;
 }
 #autoWidth {
 	height: 800px !important;
+}
+.sub-mob {
+    right: 270px;
+}
+.create-mob {
+    left: 300px;
 }
 
 }
