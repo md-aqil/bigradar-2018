@@ -365,12 +365,10 @@ h1 {
   right: 0;
 }
 .sub-img {
-  margin-left: -280px;
+  margin-left: -420px;
     width: 1320px;
 }
-.sub-mob {
-  right: 0px;
-}
+
 
 .create-img {
    margin-right: -280px;
@@ -427,7 +425,7 @@ h1 {
   padding: 15px;
   background: linear-gradient(70deg, #47bdf1, #66dce1);
   color: #fff;
-  max-height: 120px;
+  max-height: 100%;
   font-size: 18px;
 }
 
@@ -465,10 +463,21 @@ h1 {
   font-style: normal;
   margin: 0 20px 0 0;
 }
-
-.progress-bar {
-  text-align: left;
-  transition-duration: 3s;
+.progress-bar{
+    width: 80%;
+}
+.animate-this .progress-bar {
+  width: 80%;
+  -webkit-animation: progress 2s ease-in-out forwards;
+          animation: progress 2s ease-in-out forwards;
+}
+@-webkit-keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
 }
 
 .progress-box {
@@ -480,18 +489,21 @@ h1 {
   border-radius: 5px;
   box-shadow: 2px 4px 17px rgba(0, 0, 0, 0.39);
 }
-svg.line-graph {
-  margin-left: 100px;
-}
+
 .progress-box .progress-bar-success {
     background-color: #5cb85c;
     background: linear-gradient(70deg, #47bdf1, #66dce1);
 }
+
+
 .prog-label {
       margin-top: -15px;
     margin-bottom: 30px;
 }
 
+svg.line-graph {
+  margin-left: 100px;
+}
 .bg-net {
   position: relative;
   background-image: url(../img/net-bg.svg);
@@ -657,9 +669,9 @@ padding-bottom: 50px;
   display: block;
 }
 .clgb {
-  width: 100px;
+width: 80px;
     position: absolute;
-    bottom: -100px;
+    bottom: -75px;
     right: 43px;
 }
 .arrow-icon {
@@ -676,10 +688,8 @@ padding-bottom: 50px;
 }
 #user-dash {
     max-width: 100%;
-    width: 925px;
     border-radius: 3px;
     float: right;
-    margin-right: 150px;
 }
 #messenger-video{
   width: 100%;
@@ -691,3 +701,63 @@ padding-bottom: 50px;
 .mb40 {
   margin-bottom: 40px;
 }
+.smile {
+  float: right;
+    width: 28px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.slider-row img {
+  width: 80%;
+  margin:auto;
+  margin-top: 50px;
+  -webkit-transition:all .3s;
+  opacity: .5;
+
+}
+.slider-row .lslide.active img {
+  width: 100%;
+margin-top: 0;
+opacity: 1;
+}
+.padding-box {
+      padding: 100px;
+    margin-top: 100px;
+}
+.form-control.trial {
+  box-shadow: none !important;
+}
+.wus {
+  margin-left: 120px;
+}
+.media-list {
+  padding: 30px 60px;
+}
+.lslide.active + .lslide >img {
+  margin-left: 40px;
+}
+#autoWidth {
+  /*height: 100% !important;*/
+}
+
+.sub-mob {
+    right: 0px;
+}
+ .chat-media {
+      padding: 0;
+    margin-top: -20px;
+ }
+ .carousel-inner small {
+  color: #fff;
+ }
+ .play-video .btn-img {
+  transition: all .3s;
+ }
+  .play-video .btn-img:hover {
+    fill: var(--primary-color);
+    transform: scale(1.5) translateY(10px);
+    transform-origin: center;
+  }
+  .btn-img:hover path {
+    fill: #f00;
+  }
