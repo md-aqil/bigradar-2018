@@ -8,6 +8,8 @@
   .hidden-sm {
     display: none !important;
   }
+
+
 }
 
 
@@ -17,6 +19,7 @@
 	float: none;
 	padding: 30px;
 }
+
 
 }
 
@@ -128,7 +131,12 @@ margin-right: 0;
  
 }
 @media screen and (min-width: 1900px) {
-
+.mt200 {
+  margin-top: 150px !important;
+}
+#footer {
+     height: 420px;
+}
 #user-dash {
     max-width: 925px;
     border-radius: 3px;
@@ -142,7 +150,13 @@ margin-right: 0;
     right: 270px;
 }
 .create-mob {
-    left: 300px;
+   left: 210px;
+    top: 60px;
 }
-
+.create-img  {
+    margin-right: 0;
+}
+.sub-img {
+    margin-left: 0;
+}
 }

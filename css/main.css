@@ -11,7 +11,7 @@
   --mac-size: 800px;
 }
 :root {
-  --mobile-size: 220px;
+  --mobile-size: 250px;
 }
 .mac-size {
   width: var(--mac-size);
@@ -379,12 +379,14 @@ h1 {
 .sub-img {
     width: var(--mac-size);
     float: left;
+    margin-left: -100px;
 }
 
 
 .create-img {
     width: var(--mac-size);
     float: right;
+    margin-right: -100px;
 }
 .create-mob {
    left: 20px;
@@ -738,7 +740,6 @@ opacity: 1;
 }
 .padding-box {
       padding: 30px 100px;
-    margin-top: 100px;
 }
 .form-control.trial {
   box-shadow: none !important;
@@ -774,3 +775,19 @@ opacity: 1;
   .btn-img:hover path {
     fill: #f00;
   }
+  #footer {
+   height: 100px; 
+   background: #429dad;
+   color:#fff;
+   padding: 20px;
+   margin-top: -2px;
+  }
+  #autoWidth {
+  height: 500px !important;
+}
+.s-scroll {
+  position: relative;
+}
+ #footer p {
+  margin: 0;
+ }
