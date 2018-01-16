@@ -444,7 +444,7 @@
 			</div>
 		</div>
 
-		<div class="container-fluid bg-net s-scroll" style="color:#333;" data-speed="1" >
+		<div class="container-fluid bg-secondary for-anim s-scroll" style="color:#333;" data-speed="1" >
 			<div class="row spacethis ">
 				<div class="col-md-8">
 					<!-- <img src="img/line-graph.svg" alt=""> -->
@@ -474,6 +474,7 @@
 						</div>
 				</div>
 			</div>
+			<img class="net-img" src="img/net-bg.svg" alt="">
 		</div>
 
 		<div class="container-fluid s-scroll" data-speed="1" style="padding-bottom: 130px;">
@@ -642,12 +643,11 @@
 			      
 			    </div>
 		</div>
-	<!-- 	<div class="spacethis">
-		<div style="height: 700px;"></div>
-		</div> -->
+	
 	</div>
 	<footer id="footer" class="s-scroll" data-speed="2">
 		<p class="text-center">Copyright © 2018 All rights reserved.</p>
+
 	</footer>
 </div>
 
@@ -734,9 +734,9 @@ $(window).scroll(function (event) {
     var scroll = $(window).scrollTop();
     // console.log(scroll);
     if (scroll > 5588 && scroll < 7009) {
-    	$('.bg-net').addClass('animate-this');
+    	$('.for-anim').addClass('animate-this');
     } else {
-    	$('.bg-net').removeClass('animate-this');
+    	$('.for-anim').removeClass('animate-this');
     }
   
 });
