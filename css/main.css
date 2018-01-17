@@ -808,3 +808,6 @@ opacity: 1;
  .media-heading {
   font-size: 30px;
  }
+.wow {
+  overflow:hidden;
+}
