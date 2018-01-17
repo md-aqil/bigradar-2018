@@ -655,6 +655,7 @@
 <script src="js/lightslider.min.js"></script>
 <script src="js/WOW.js"></script>
 <script src="js/jquery-inertiaScroll.js"></script>
+<script src="js/jquery.easeScroll.js"></script>
 <script>
 
 	wow2 = new WOW(
@@ -749,12 +750,25 @@ $(window).scroll(function (event) {
 //     });  
 //   });
 
-$(document).ready(function() {
-	 $(".s-scroll").inertiaScroll({
-    parent: $("#s-scroll-parent")
-  });
-})
- 
+// $(document).ready(function() {
+// 	 $(".s-scroll").inertiaScroll({
+//     parent: $("#s-scroll-parent")
+//   });
+// })
+ $("html").easeScroll({
+  frameRate: 60,
+  animationTime: 1000,
+  stepSize: 120,
+  pulseAlgorithm: 1,
+  pulseScale: 8,
+  pulseNormalize: 1,
+  accelerationDelta: 20,
+  accelerationMax: 1,
+  keyboardSupport: true,
+  arrowScroll: 50,
+  touchpadSupport: true,
+  fixedBackground: true
+});
 
 
 </script>
