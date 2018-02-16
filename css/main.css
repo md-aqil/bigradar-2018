@@ -201,6 +201,7 @@
   border-radius: 30px !important;
   margin-left: 20px !important;
 }
+
 /*text reveal=========================*/
 
 .reveal-text,
@@ -810,4 +811,13 @@ opacity: 1;
  }
 .wow {
   overflow:hidden;
+}
+.subscribs-popup {
+      position: absolute;
+    left: 40px;
+    width: 500px;
+    top: 200px;
+}
+.origin-bottom {
+  transform-origin: right bottom;
 }
