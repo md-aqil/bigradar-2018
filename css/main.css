@@ -462,7 +462,7 @@ h1 {
   margin-top: 100px;
 }
 .chat-img {
-  width: 70%;
+  width: 80%;
 }
 .chat-media .media{
   margin-top: 40px;
@@ -544,7 +544,7 @@ svg.line-graph {
  
 }
 .chat-bubble {
-  width: 80%;
+  width: 90%;
 }
 /*carasoul===============================*/
 .carousel {
@@ -822,17 +822,23 @@ opacity: 1;
   transform-origin: right bottom;
 }
 .msg-gray, .msg-blue {
-     width: 250px;
+     width: 270px;
   position: absolute;
 }
 .msg-gray {
-    left: 122px;
+    left: 100px;
     top: 120px;
 }
  .msg-blue {
-    right: 80px;
+    right: 50px;
     top: 210px;
  }
  .pr0 {
   padding-right: 0;
+ }
+ .point-dash {
+      width: 380px;
+    bottom: -50px;
+    position: absolute;
+    left: 150px;
  }
