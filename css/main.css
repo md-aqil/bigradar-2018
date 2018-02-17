@@ -821,3 +821,18 @@ opacity: 1;
 .origin-bottom {
   transform-origin: right bottom;
 }
+.msg-gray, .msg-blue {
+     width: 250px;
+  position: absolute;
+}
+.msg-gray {
+    left: 122px;
+    top: 120px;
+}
+ .msg-blue {
+    right: 80px;
+    top: 210px;
+ }
+ .pr0 {
+  padding-right: 0;
+ }
