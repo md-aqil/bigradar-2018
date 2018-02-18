@@ -180,6 +180,10 @@
          filter: drop-shadow(2px 4px 17px rgba(0, 0, 0, 0.39));
 
 }
+.box-shadow {
+         box-shadow: 2px 4px 17px rgba(0, 0, 0, 0.39);
+
+}
 .fw400 {
   font-weight: 400;
 }
@@ -455,14 +459,14 @@ h1 {
 }
 
 .notifications {
-  width: 500px;
+  width: 430px;
   float: right;
   margin-right: 16.66666667%;
   position: relative;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .chat-img {
-  width: 80%;
+  width: 90%;
 }
 .chat-media .media{
   margin-top: 40px;
@@ -526,6 +530,8 @@ svg.line-graph {
 .bg-net {
   position: relative;
   background-image: url(../img/net-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   /*background-color: #ddd*/
 }
 .bg-net:before {
@@ -826,7 +832,7 @@ opacity: 1;
   position: absolute;
 }
 .msg-gray {
-    left: 100px;
+    left: 55px;
     top: 120px;
 }
  .msg-blue {
@@ -840,5 +846,5 @@ opacity: 1;
       width: 380px;
     bottom: -50px;
     position: absolute;
-    left: 150px;
+    left: 10px;
  }
