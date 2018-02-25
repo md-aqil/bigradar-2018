@@ -646,7 +646,6 @@
 <script src="js/WOW.js"></script>
 <script src="js/jquery-inertiaScroll.js"></script>
 <script src="js/jquery.easeScroll.js"></script>
-<script src="js/moment.min.js"></script>
 <script src="js/greeting.js"></script>
 <script>
 
@@ -817,7 +816,7 @@ $(window).scroll(function (event) {
   touchpadSupport: true,
   fixedBackground: true
 });
-$('#greet-message').text('Good ' + getGreetingTime(moment()))
+$('#greet-message').text(getGreetingTime())
 
 </script>
 </body>
