@@ -35,7 +35,9 @@
 .nav-transprent .navbar-nav>li>a {
 	font-size: 18px;
 }
-
+.por {
+  position: relative;
+}
 .nav-transprent .navbar-brand {
 	color: #fff;
 }
@@ -841,4 +843,9 @@ opacity: 1;
     bottom: -50px;
     position: absolute;
     left: 150px;
+ }
+ ._circlec {
+  position: absolute;
+      bottom: -80px;
+      right: 21px;
  }
