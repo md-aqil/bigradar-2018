@@ -448,7 +448,7 @@ h1 {
 .notifications .notification {
   margin: 10px 0;
   padding: 15px;
-  background: linear-gradient(70deg, #47bdf1, #66dce1);
+ background: linear-gradient(70deg, #2877e8, #2877e9);
   color: #fff;
   max-height: 100%;
   font-size: 18px;
@@ -517,7 +517,7 @@ h1 {
 
 .progress-box .progress-bar-success {
     background-color: #5cb85c;
-    background: linear-gradient(70deg, #47bdf1, #66dce1);
+    background: linear-gradient(70deg, #2877e9, #2877e9);
 }
 
 
@@ -535,6 +535,7 @@ svg.line-graph {
   background-repeat: no-repeat;
   background-size: cover;
   /*background-color: #ddd*/
+  background-color: #2877e9;
 }
 .bg-net:before {
   content: '';
@@ -705,7 +706,7 @@ width: 80px;
   fill: #fff;
     width: 30px;
     float: right;
-    background: #4bc1f0;
+    background: #2877e9;
     border-radius: 50%;
     padding: 4px;
 }
@@ -771,7 +772,7 @@ opacity: 1;
     margin-top: -20px;
  }
  .carousel-inner small {
-  color: #fff;
+  color: #000;
  }
  .play-video .btn-img {
   transition: all .3s;
@@ -786,8 +787,8 @@ opacity: 1;
   }
   #footer {
    /*height: 100px; */
-   background: #429dad;
-   color:#fff;
+   background: #e1eaef;
+   color:#333;
    padding: 20px;
    margin-top: -2px;
   }
@@ -855,7 +856,31 @@ opacity: 1;
   position: absolute;
       bottom: -80px;
       right: 21px;
-
-    left: 10px;
-
  }
+ .getstarted {
+  background:#2876ea;
+  border-color:#2876ea; 
+  color: #fff;
+ }
+ .mt0 {
+  margin-top: 0;
+ }
+
+ .footerlinks a {
+    display: block;
+    color: #333;
+    padding: 4px 6px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.vi-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.8;
+}
+p {
+    color: #60656f;
+    font-size: 16px;
+    line-height: 24px;
+}
