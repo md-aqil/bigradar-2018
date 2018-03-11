@@ -553,7 +553,7 @@ svg.line-graph {
  
 }
 .chat-bubble {
-  width: 90%;
+  width: 100%;
 }
 /*carasoul===============================*/
 .carousel {
@@ -789,7 +789,7 @@ opacity: 1;
    /*height: 100px; */
    background: #e1eaef;
    color:#333;
-   padding: 20px;
+   padding: 40px 0;
    margin-top: -2px;
   }
   #autoWidth {
@@ -850,12 +850,13 @@ opacity: 1;
     bottom: -50px;
     position: absolute;
 
-    left: 150px;
+    left: 70px;
  }
  ._circlec {
   position: absolute;
-      bottom: -80px;
+      bottom: -95px;
       right: 21px;
+      width: 125px;
  }
  .getstarted {
   background:#2876ea;
@@ -883,4 +884,18 @@ p {
     color: #60656f;
     font-size: 16px;
     line-height: 24px;
+}
+.footer-social li img{
+  width: 38px;
+margin-top: 30px;
+
+}
+.profile-pic img{
+  width: 55px;
+border-radius: 50%;
+position: absolute;
+left: -68px;
+bottom: 80px;
+object-fit: cover;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.39);
 }
