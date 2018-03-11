@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>BigRadar</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/lightslider.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<style>
+	.chat-bubble.zoomIn ,.origion-r-b {
+ 		transform-origin: right bottom;
+
+	}
+	.animate-this polyline {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 4s linear forwards ;
+}
+.animate-this .cls-2{
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-name: fl;
+    -moz-animation-name: fl;
+
+/* 	-webkit-transform-origin: center center;
+ 	-moz-transform-origin: center center;
+ 	-o-transform-origin: center center;*/
+ 	transform-origin: bottom;
+
+}
+.c1  {
+  -webkit-animation-delay: 0s;
+
+}
+.c2 {
+  -webkit-animation-delay: .3s;
+
+}
+.c3 {
+  -webkit-animation-delay: .9s;
+
+}
+.c4 {
+  -webkit-animation-delay: 1.3s;
+
+}
+.c5 {
+  -webkit-animation-delay: 1.9s;
+
+}
+.c6 {
+  -webkit-animation-delay: 2.6s;
+
+}
+.c7 {
+  -webkit-animation-delay: 3.3s;
+
+}
+@keyframes dash {
+  from {
+
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fl {
+  0%{transform: scale(0);opacity: 0;}
+  50%{transform: scale(.5); opacity: 1;}
+  70%{transform: scale(1.3)}
+  100%{transform: scale(1)}
+}
+
+</style>
+
+</head>
+<body>
+		<div class="front-box s-scroll" data-speed="1" style="height: inherit;">
+			<nav class="navbar navbar-default nav-transprent">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-sample" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<h4><a class="navbar-brand" href="#" ><img src="img/logo.png" alt=""></a></h4>
+				</div>
+					
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-sample" style="margin-top: 15px;">
+				
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Customers</a></li>
+						<!-- <button type="button" class="btn btn-default navbar-btn">Sign in</button> -->
+					</ul>
+				</div>
+				
+			</div>
+		</nav>
+
+
+
+		<div class="container spacethis">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<form class="">
+						<div class="form-group">
+							<label>Name</label>
+							<input type="" class="form-control" name="">
+
+						</div>
+						<div class="form-group">
+							<label>Email</label>
+							<input type="" class="form-control" name="">
+
+						</div>
+						<div class="form-group">
+							<label>Phone</label>
+							<input type="" class="form-control" name="">
+
+						</div>
+						<div class="form-group">
+							<label>Message</label>
+							<textarea class="form-control" rows="4"></textarea>
+
+						</div>
+					</form>
+				</div>
+				
+			</div>
+		</div>	
+		</div>
+
+		<div class="container-fluid spacethis bg-blue">
+			<div class="row">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+		                    <h4 class="footer-heading">Our Location</h4>
+
+		                      <div class="list-group footerlinks white">
+		                          <p class="">Address: MZ-1, Naurang House, 21, Kasturba Gandhi Marg, Connaught Place, New Delhi, Delhi 110001
+										Hours: Closed ⋅ Opens 10AM Mon
+										Phone: 011 6515 8899</p>
+		                         
+		                      </div>
+		                  </div>
+          				<div class="col-md-4">
+                              <h4 class="footer-heading">Get in touch</h4>
+
+                                <div class="list-group footerlinks white">
+                                    <a class="">
+          								Phone: 011 6515 8899</a>
+                                    <a href="about-us" class="">Email: aqilali381@gmail.com</a>
+                                    
+                                </div>
+                            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container spacethis">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="mt0">
+							Start Your Free Trial
+						</h3>
+						<p class="fw400" style="font-size: 17px">
+							Early stage company? Eligible applicants get all of our products for just $49 a month Learn More
+						</p>
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-5">
+						<div class="input-group">
+			                <input type="text" class="form-control" placeholder="Enter your email">
+			                <span class="input-group-addon getstarted">Get Started</span>
+					</div>
+					<ul class="list-inline" style="margin-top: 16px;
+		    color: #717171;
+		    font-size: 16px;">
+						<li>Free 14 days Trial -</li>
+						<li>Easy Setup -</li>
+						<li>Cancel Anytime</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	<footer id="footer" class="s-scroll" data-speed="2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2 col-xs-6">
+				        <h4 class="footer-heading">Company</h4>
+				          <div class="list-group footerlinks">
+				              <a href="/" class="">Home</a>
+				              <a href="about-us" class="">About Us</a>
+				              <a href="/services" class="">Services</a>
+				              <a href="/contact-us" class="">Contact Us</a>
+				          </div>
+				      </div>
+				      <div class="col-md-2 col-xs-6">
+				              <h4 class="footer-heading">Resources</h4>
+				                <div class="list-group footerlinks">
+				                    <a href="/" class="">Home</a>
+				                    <a href="about-us" class="">About Us</a>
+				                    <a href="/services" class="">Services</a>
+				                    <a href="/contact-us" class="">Contact Us</a>
+				                </div>
+				            </div>
+				            <div class="col-md-2 col-xs-6">
+				                    <h4 class="footer-heading">Features</h4>
+				                      <div class="list-group footerlinks">
+				                          <a href="/" class="">Home</a>
+				                          <a href="about-us" class="">About Us</a>
+				                          <a href="/services" class="">Services</a>
+				                          <a href="/contact-us" class="">Contact Us</a>
+				                      </div>
+				                  </div>
+				       <div class="col-md-3 col-xs-6">
+				        <h4 class="footer-heading">Use Cases</h4>
+				          <p>
+				          	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, ea?
+				          </p>
+				      </div>
+				       <div class="col-md-3 col-xs-6">
+				        <h4 class="footer-heading">News Latter</h4>
+				         <div class="form-group">
+				                         <input type="text" class="form-control" placeholder="Enter your email">
+				         		</div>
+				         		<div class="text-right">
+				         			<button class="btn " style="background: #f1703f;
+				         			color: #fff;">Submit </button>
+				         		</div>
+
+				         		<ul class="list-inline footer-social">
+				         			<li><a href=""><img src="img/face.svg"></a></li>
+				         			<li><a href=""><img src="img/goog.svg"></a></li>
+				         			<li><a href=""><img src="img/link.svg"></a></li>
+				         			<li><a href=""><img src="img/tweet.svg"></a></li>
+				         			<li><a href=""><img src="img/you.svg"></a></li>
+				         		</ul>
+				      </div>
+			</div>
+		</div>
+		<p class="text-center">Copyright © 2018 All rights reserved.</p>
+	</footer>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/lightslider.min.js"></script>
+<script src="js/WOW.js"></script>
+<script src="js/jquery-inertiaScroll.js"></script>
+<script src="js/jquery.easeScroll.js"></script>
+<script src="js/greeting.js"></script>
+<script>
+
+	wow2 = new WOW(
+        {
+        boxClass:     'wow-reveal',      // default
+        animateClass: 'reveal-text', // default
+        offset:       100,          // default
+        mobile:       true,       // default
+        live:         true        // default
+      }
+      )
+      wow2.init();
+
+      new WOW().init();
+       
+      
+      
+
+</script>
+
+<script>
+	
+
+// $(document).ready(function() {
+//     $('#autoWidth').lightSlider({
+//         autoWidth:true,
+//         loop:true,
+//         onSliderLoad: function() {
+//             $('#autoWidth').removeClass('cS-hidden');
+//         } 
+//     });  
+//   });
+
+
+   jQuery(document).ready(function($) {
+ 				//set here the speed to change the slides in the carousel
+        // $('#myCarousel').carousel({
+        //         interval: 5000
+        // });
+ 				
+//Loads the html to each slider. Write in the "div id="slide-content-x" what you want to show in each slide
+        $('#carousel-text').html($('#slide-content-0').html());
+ 
+        //Handles the carousel thumbnails
+       $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#myCarousel').carousel(id);
+        });
+ 
+ 
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
+
+
+  $('.play-video').on('click', function(ev) {
+	ev.preventDefault();
+
+    $(this).next('.video').show().get(0).src += "&autoplay=1";
+ 
+  });
+// $(document).ready(function() {
+//     $('#autoWidth').lightSlider({
+//         // rtl:true,
+//          onSliderLoad: function() {
+//          $('#autoWidth').removeClass('cS-hidden');
+//        } 
+//     });
+// });
+
+
+    $(document).ready(function() {
+        $("#autoWidth").lightSlider({
+            item: 3,
+            autoWidth: false,
+            slideMove: 1, // slidemove will be 1 if loop is true
+            slideMargin: 10,
+     
+            addClass: '',
+            mode: "slide",
+            useCSS: true,
+            cssEasing: 'ease', //'cubic-bezier(0.25, 0, 0.25, 1)',//
+            easing: 'linear', //'for jquery animation',////
+     
+            speed: 1000, //ms'
+            auto: true,
+            loop: true,
+            slideEndAnimation: true,
+            pause: 4000,
+     
+            keyPress: false,
+            controls: true,
+            prevHtml: '',
+            nextHtml: '',
+     
+            rtl:false,
+            adaptiveHeight:false,
+     
+            vertical:false,
+            verticalHeight:500,
+            vThumbWidth:100,
+     
+            thumbItem:10,
+            pager: true,
+            gallery: false,
+            galleryMargin: 5,
+            thumbMargin: 5,
+            currentPagerPosition: 'middle',
+     
+            enableTouch:true,
+            enableDrag:true,
+            freeMove:true,
+            swipeThreshold: 40,
+     
+            responsive : [],
+     
+            onBeforeStart: function (el) {},
+            onSliderLoad: function (el) {},
+            onBeforeSlide: function (el) {},
+            onAfterSlide: function (el) {},
+            onBeforeNextSlide: function (el) {},
+            onBeforePrevSlide: function (el) {}
+        });
+    });
+   
+
+$(window).scroll(function (event) {
+    var scroll = $(window).scrollTop();
+    // console.log(scroll);
+    if (scroll > 5588 && scroll < 7009) {
+    	$('.for-anim').addClass('animate-this');
+    } else {
+    	$('.for-anim').removeClass('animate-this');
+    }
+  
+});
+// $(document).ready(function() {
+//     $('#autoWidth').lightSlider({
+//         autoWidth:true,
+//         loop:true,
+//         onSliderLoad: function() {
+//             $('#autoWidth').removeClass('cS-hidden');
+//         } 
+//     });  
+//   });
+
+// $(document).ready(function() {
+// 	 $(".s-scroll").inertiaScroll({
+//     parent: $("#s-scroll-parent")
+//   });
+// })
+ $("html").easeScroll({
+  frameRate: 60,
+  animationTime: 1000,
+  stepSize: 120,
+  pulseAlgorithm: 1,
+  pulseScale: 8,
+  pulseNormalize: 1,
+  accelerationDelta: 20,
+  accelerationMax: 1,
+  keyboardSupport: true,
+  arrowScroll: 50,
+  touchpadSupport: true,
+  fixedBackground: true
+});
+$('#greet-message').text(getGreetingTime())
+
+</script>
+</body>
+</html>

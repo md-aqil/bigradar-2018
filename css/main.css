@@ -331,11 +331,7 @@
   }
 }
 
-h1 {
-  font-size: 100px;
-  font-family: monospace;
-  margin: 0;
-}
+
 
 /*text reveal=END========================*/
 
@@ -451,7 +447,7 @@ h1 {
  background: linear-gradient(70deg, #2877e8, #2877e9);
   color: #fff;
   max-height: 100%;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .notifications .notification, .notifications .composer-container {
@@ -845,12 +841,29 @@ opacity: 1;
  .pr0 {
   padding-right: 0;
  }
+ .mt80 {
+  margin-top: 80px;
+ }
+ .form-control {
+  box-shadow: none !important;
+ }
+ .bg-blue {
+  background: #2877e9;
+  color: #fff;
+ }
+ .footerlinks.white p{
+    color: #fff;
+    font-size: 14px;
+ }
+ .footerlinks.white a{
+    color: #fff;
+ }
  .point-dash {
       width: 380px;
     bottom: -50px;
     position: absolute;
 
-    left: 70px;
+    left: 0px;
  }
  ._circlec {
   position: absolute;
@@ -899,3 +912,47 @@ bottom: 80px;
 object-fit: cover;
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.39);
 }
+
+.pricing-box {
+    width: 100%;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 16px 58px rgba(63,49,178,.08), 0 4px 14px rgba(63,49,178,.04);
+}
+.pricing-box .price-listing li {
+    color:#888888;
+    padding: 7px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+.price-listing {
+    margin-top: 10px;
+    padding-left: 0;
+    list-style: none;
+}
+.pricing-box .pricing-content {
+    padding: 20px;
+}
+.pricing-box .pricefooter .btn {
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    box-shadow: none;
+    background: #2876ea;}
+
+    .pricing-box .pricefooter {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .priceh >img {
+      width: 30px;
+    } 
+    .priceh {
+
+      padding: 20px;
+    }
+
+    .pricing-box.active .priceh {
+      background: #2876ea;
+      color: #fff;
+    }
