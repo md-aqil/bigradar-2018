@@ -510,7 +510,9 @@
   border-radius: 5px;
   box-shadow: 2px 4px 17px rgba(0, 0, 0, 0.39);
 }
-
+.progress {
+  background-color: transparent;
+}
 .progress-box .progress-bar-success {
     background-color: #5cb85c;
     background: linear-gradient(70deg, #2877e9, #2877e9);
